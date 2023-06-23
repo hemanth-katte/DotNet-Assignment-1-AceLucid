@@ -4,11 +4,11 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			//Console.WriteLine("Hello, World!");
 			Console.WriteLine("Enter a number(height) and I'll print you a pyramid of the given height : ");
 			int height = Convert.ToInt32 (Console.ReadLine());
 			printPyramid(height);
-
+			Console.ReadKey();
 		}
 
 		static void printPyramid(int height)
